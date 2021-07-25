@@ -7,7 +7,7 @@ The second project from Juan Pablo's course of CSS Grid and Flexbox.
 ## What I Learned
 
 ### Lighthouse
-![](readme/lighthouse.png
+![](readme/lighthouse.png)
 
 ### Facebook
 ![](readme/facebook.png)
