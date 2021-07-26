@@ -1,0 +1,36 @@
+////////////////////
+// *** INDEX *** // 
+/////////////////// 
+
+// *** MIXINS *** // 
+@forward 'lessier' as mx-*;
+
+// *** COLORS *** //
+$clr: (
+    'primary': #0879AD,
+    'secundary': #ED9A0D,
+    'tertiary': #DB008D, 
+
+    'purple-100': #9800D1,
+    
+    'gray-100': #F2F2F2,
+    'white': #FFF,
+    'black': #000
+);
+
+// *** FONTS *** //
+
+// *** THEY'LL BE PRINTED IN THE PLAIN CSS FIRST *** //
+@font-face {
+    font-family: 'Comme';
+    src: url('../assets/fonts/Comme-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comme';
+    src: url('../assets/fonts/Comme-Bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
