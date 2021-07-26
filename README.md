@@ -7,7 +7,7 @@ The second project from Juan Pablo's course of CSS Grid and Flexbox.
 ## What I Learned
 I've used the SMACSS methodology at least a couple of times, and now I feel confident enough to jump onto another kinda CSS architecture in the next projects such as [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), or [7-1](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture).
 
-I'd like to remark the fact that I've used my own kinda library with mixins that I created such as mixins for flexbox, grid, and media queries just for name some, if you'd like to check it out [go here](https://github.com/said-alrove/mixins-sass).
+I'd like to remark the fact that I've used my own kinda library with mixins that I created such as mixins for flexbox, grid, and media queries just to name some, if you'd like to check it out [go here](https://github.com/said-alrove/mixins-sass).
 
 I figured out how to use the images in the web correctly by using things like the srcset attribute in either the img or source elements, and in like manner now I know that I was doing the fallback for images with different formats wrongly due to I was using the same image with different formats in the same srcset element (that makes that the browser would only read the first image in the source element, and if it's supported it'd use it, if not, the fallback would have failed), for instance:
 
