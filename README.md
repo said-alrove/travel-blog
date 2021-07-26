@@ -5,6 +5,8 @@ The second project from Juan Pablo's course of CSS Grid and Flexbox.
 ![](readme/screenshot.png)
 
 ## What I Learned
+I've used the SMACSS methodology at least a couple of times, and now I feel enough confident to jump onto another kinda CSS architecture in the next projects such as [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), or [7-1](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture).
+
 I figured out how to use the images in the web correctly by using things like the srcset attribute in either the img or source elements, and in like manner now I know that I was doing the fallback for images with different formats wrongly due to I was using the same image with different formats in the same srcset element (that makes that the browser would only read the first image in the source element, and if it's supported it'd use it, if not, the fallback would have failed), for instance:
 
         <picture>
@@ -40,7 +42,7 @@ If you want to learn more about what's the .avif format check these videos out:
    
    2.- [The AVIF Image Format by Kornel Lesiński [ IMAGE READY ]](https://www.youtube.com/watch?v=VHm5Ql33JYw).
    
-As the last thing, I have to mention that I got an 89 score in the accessibility section in the lighthouse report due to I didn't contrast good enough the secondary color (yellow) with the letters (white) and also because the social media menu didn't have "some descriptive text" in it (the menu was made with icons, thus I didn't use text in the links).
+As the last thing, I have to mention that I got an 89 score in the accessibility section in the lighthouse report due to I didn't contrast good enough the secondary color (yellow) with the letters (white) and that's due to that if I'd have given a darker color, the design would've looked weird for that unbalance between the light of the colors (the colors are in their darkest version, if I add darker to any of them, they're gonna look ugly), so I decided to leave it like that. Furthermore, also because the social media menu didn't have "some descriptive text" in it (the menu was made with icons, thus I didn't use text in the links).
 
 That'd be everything for this project :D.
 
