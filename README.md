@@ -28,7 +28,7 @@ That way the browser can perfectly understand the whole fallback. If the browser
   
    3.- [The HTML picture element explained](https://www.youtube.com/watch?v=Rik3gHT24AM&t=1025s). 
  
-I have to mention that I've already talked about these videos in the [easy recipe](https://github.com/said-alrove/easy-recipe) project, but there was something left, and that's the type attribute for specifying the format of the set of images, and for that [this other video](https://www.youtube.com/watch?v=rO6rvbN37ZA) gave me a hand for somethign I took for granted.
+I have to mention that I've already talked about these videos in the [easy recipe](https://github.com/said-alrove/easy-recipe) project, but there was something left, and that's the type attribute to specify the format of the set of images, and for that, [this other video](https://www.youtube.com/watch?v=rO6rvbN37ZA) gave me a hand for something I took for granted.
 
 But, why .avif and not other formats? Well that's because what I'm looking for, is a better performance for the users, and the images play a huge role when loading a site, therefore I obviously decided to use the .webp format as always, but furthermore, I figured out that there was a lighter format with great quality too, unfortunately, it doesn't have enough support yet (60-70 percent maybe) so I thought It'd be a great opportunity for using both formats by creating fallbacks, which was a little hard because how I mentioned before, I didn't know how to make the fallback correctly.
 
