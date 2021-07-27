@@ -4,10 +4,6 @@
 
 // *** MODULES *** //
 @use 'base/base';
-
 @use 'modules/modules';
-
-@use 'layout/layout-styles';
-@use 'layout/layout';
-
+@use 'layout';
 @use 'state/state';

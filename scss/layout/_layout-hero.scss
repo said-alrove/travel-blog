@@ -1,0 +1,103 @@
+// *** MEMBERS *** // 
+@use '../members' as var;
+@use 'sass:map';
+
+//************************
+//* HERO-CONTAINER
+//************************
+.hero-container {
+    position: relative;
+    @include var.mx-flexbox($dir: column, $jt-content: center);
+    height: 140vh;
+    @include var.mx-query($device: 'tablet', $size: 'md') { 
+        height: 100vh; 
+    }
+
+    .webp & { 
+        background-image: url('../assets/webp/hero@1x.webp'); 
+        @include var.mx-query($device: 'tablet', $size: 'md') {
+            background-image: url('../assets/webp/hero@2x.webp')
+        }
+    }
+
+    .no-webp & { 
+        background-image: url('../assets/jpg/hero@1x.jpg'); 
+        @include var.mx-query($device: 'tablet', $size: 'md') {
+            background-image: url('../assets/jpg/hero@2x.jpg')
+        }
+    }
+
+    background: 
+    {
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+}
+
+//************************
+//* HERO-BAR
+//************************
+.bar-wrapper {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    padding-block: 1rem;
+    background-color: map.get(var.$clr, 'primary');
+
+    @at-root {
+        & > .container {
+            @include var.mx-flexbox($dir: column, $gap: 2rem);
+            @include var.mx-query($device: 'tablet', $size: 'md') {
+                @include var.mx-flexbox($dir: initial, $jt-content: space-between);
+            }
+        }
+
+        .logotype-container {
+            @include var.mx-flexbox($jt-content: center, $al-items: center);
+            img { 
+                max-width: 30rem; 
+                @include var.mx-query($device: 'tablet', $size: 'sm') {
+                    max-width: 40rem;
+                }
+            } 
+        }
+
+        & .nav-container { 
+            @include var.mx-flexbox($al-items: center);
+            @include var.mx-query($device: 'tablet', $size: 'md') {
+                flex: 0 0 40rem; 
+            }
+        }
+
+        & .nav__list {
+            @include var.mx-flexbox($dir: column, $al-items: center, $gap: 2rem);
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
+                @include var.mx-flexbox($dir: initial, $jt-content: space-evenly);
+            }
+            flex: 1 0;
+        }
+    }
+}
+
+//************************
+//* HERO-CONTENT
+//************************
+.hero-content {
+    h1 {
+        margin: 
+        {
+            block-start: 15rem;
+            inline-start: 2rem;
+        }
+        @include var.mx-query($device: 'tablet', $size: 'sm') {
+            margin-inline-start: 4rem;
+        }
+        max-width: 40rem;
+        font-size: 4rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        color: map.get(var.$clr, 'primary'); 
+    }
+}

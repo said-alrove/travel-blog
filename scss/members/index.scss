@@ -5,7 +5,9 @@
 // *** MIXINS *** // 
 @forward 'lessier' as mx-*;
 
-// *** COLORS *** //
+//************************
+//* COLORS
+//************************
 $clr: (
     'primary': #0879AD,
     'secundary': #ED9A0D,
@@ -18,7 +20,9 @@ $clr: (
     'black': #000
 );
 
-// *** FONTS *** //
+//************************
+//* FONTS
+//************************
 
 // *** THEY'LL BE PRINTED IN THE PLAIN CSS FIRST *** //
 @font-face {

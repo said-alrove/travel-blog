@@ -1,0 +1,88 @@
+// *** MEMBERS *** // 
+@use '../members' as var;
+@use 'sass:map';
+
+//************************
+//* FOOTER-CONTAINER
+//************************
+.footer-container {
+    padding-block-start: 1.6rem;
+    background-color: map.get(var.$clr, 'primary');
+    color: map.get(var.$clr, 'white');
+
+    @at-root {
+        .footer-container > .container {
+            text-align: center;
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
+                @include var.mx-grid($cols: repeat(3, 1fr), $gap: 3rem);
+                text-align: unset;
+            }
+        }
+    }
+}
+
+//************************
+//* FOOTER-SECTION
+//************************
+.footer__section {
+    @at-root {
+        &:nth-child(2) .nav__list { 
+            padding-inline: 1rem;
+            list-style: disc; 
+        }
+
+        &:nth-child(3) .nav__list {
+            @include var.mx-flexbox($jt-content: space-evenly);
+        }
+
+        &:nth-child(3) .nav__item { 
+            text-align: center; 
+
+            a::before {
+                font: 
+                {
+                    family: 'Font Awesome 5 Brands';
+                    size: 2rem;
+                }
+                color: map.get(var.$clr, 'white');
+            }
+
+            a[href*='facebook']::before { content: '\f39e'; }
+            
+            a[href*='twitter']::before { content: '\f099'; }
+            
+            a[href*='youtube']::before { content: '\f167'; }
+            
+            a[href*='instagram']::before { content: '\f16d'; }
+            
+            a[href*='pinterest']::before { content: '\f0d2'; }  
+            
+            span { display: none; }          
+        }
+
+        .footer__heading {
+            margin-block: 2rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
+                text-align: center;
+            }
+        }
+    }
+}
+
+//************************
+//* FOOTER-COPY
+//************************
+.copyright {
+    margin-block: 0;
+    padding-block: 1rem;
+    font: 
+    {
+        size: 1.8rem;
+        weight: bold;
+    }
+    text-align: center;
+    background-color: map.get(var.$clr, 'tertiary');
+}

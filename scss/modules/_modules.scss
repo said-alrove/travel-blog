@@ -1,7 +1,9 @@
 @use '../members' as var;
 @use 'sass:map';
 
-// *** UTILITIES *** //
+//************************
+//* UTILITIES
+//************************
 .container {
     margin-inline: auto;
     max-width: 110rem;
@@ -17,8 +19,11 @@
 .nav__item a {
     display: block;
     padding-block: 1rem;
-    font-size: 1.6rem;
-    font-weight: bold;
+    font: 
+    {
+        size: 1.6rem;
+        weight: bold;
+    }
     text-transform: uppercase;
     letter-spacing: .2rem;
     color: map.get(var.$clr, 'white');

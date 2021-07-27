@@ -6,9 +6,9 @@
 
 $light: -10%;
 
-///////////
-// HERO // 
-//////////
+//************************
+//* BAR-WRAPPER
+//************************
 .bar-wrapper {
     @at-root {
         & .nav__item > a:hover {
@@ -17,9 +17,9 @@ $light: -10%;
     }
 }
 
-///////////// 
-// FOOTER // 
-//////////// 
+//************************
+//* FOOTER-CONTAINER
+//************************ 
 .footer-container {
     @at-root {
         .footer__section:nth-child(3) .nav__item { 
@@ -34,9 +34,9 @@ $light: -10%;
 
 // *** INDEX *** //
 
-////////////////// 
-// CATHEGORIES // 
-///////////////// 
+//************************
+//* CATHEGORIES-CONTAINER
+//************************
 .cathegories-container {
     @at-root {
         & .nav__item:nth-child(1):hover { 
@@ -61,7 +61,9 @@ $light: -10%;
     }
 }
 
-// *** UTILITIES *** // 
+//************************
+//* UTILITIES
+//************************
 .button:hover {
     background-color: 
         color.scale(map.get(var.$clr, 'primary'), $lightness: $light);
