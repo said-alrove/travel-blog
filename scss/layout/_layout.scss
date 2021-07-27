@@ -8,7 +8,7 @@
 //////////
 .hero-container {
     height: 140vh;
-    @include var.mx-query($device: 'tablet', $size: 'medium') { 
+    @include var.mx-query($device: 'tablet', $size: 'md') { 
         height: 100vh; 
     }
 }
@@ -23,7 +23,7 @@
     @at-root {
         & > .container {
             @include var.mx-flexbox($dir: column, $gap: 2rem);
-            @include var.mx-query($device: 'tablet', $size: 'medium') {
+            @include var.mx-query($device: 'tablet', $size: 'md') {
                 @include var.mx-flexbox($dir: initial, $jt-content: space-between);
             }
         }
@@ -32,7 +32,7 @@
             @include var.mx-flexbox($jt-content: center, $al-items: center);
             img { 
                 max-width: 30rem; 
-                @include var.mx-query($device: 'tablet', $size: 'small') {
+                @include var.mx-query($device: 'tablet', $size: 'sm') {
                     max-width: 40rem;
                 }
             } 
@@ -40,14 +40,14 @@
 
         & .nav-container { 
             @include var.mx-flexbox($al-items: center);
-            @include var.mx-query($device: 'tablet', $size: 'medium') {
+            @include var.mx-query($device: 'tablet', $size: 'md') {
                 flex: 0 0 40rem; 
             }
         }
 
         & .nav__list {
             @include var.mx-flexbox($dir: column, $al-items: center, $gap: 2rem);
-            @include var.mx-query($device: 'tablet', $size: 'small') {
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
                 @include var.mx-flexbox($dir: initial, $jt-content: space-evenly);
             }
             flex: 1 0;
@@ -59,7 +59,7 @@
     h1 {
         margin-block-start: 15rem; 
         margin-inline-start: 2rem;
-        @include var.mx-query($device: 'tablet', $size: 'small') {
+        @include var.mx-query($device: 'tablet', $size: 'sm') {
             margin-inline-start: 4rem;
         }
         max-width: 40rem; 
@@ -76,7 +76,7 @@
 
     @at-root {
         .footer-container > .container {
-            @include var.mx-query($device: 'tablet', $size: 'small') {
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
                 @include var.mx-grid($cols: repeat(3, 1fr), $gap: 3rem);
             }
         }
@@ -126,10 +126,10 @@
     @at-root {
         & .nav__list {
             margin-block: 4.8rem;
-            @include var.mx-query($device: 'tablet', $size: 'small') {
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
                 @include var.mx-grid($cols: repeat(2, 1fr));
             }
-            @include var.mx-query($device: 'tablet', $size: 'big') {
+            @include var.mx-query($device: 'tablet', $size: 'lg') {
                 @include var.mx-grid($cols: repeat(4, 1fr));
             }
         }

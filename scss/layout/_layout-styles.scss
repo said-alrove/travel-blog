@@ -12,14 +12,14 @@
 
     .webp & { 
         background-image: url('../assets/webp/hero@1x.webp'); 
-        @include var.mx-query($device: 'tablet', $size: 'medium') {
+        @include var.mx-query($device: 'tablet', $size: 'md') {
             background-image: url('../assets/webp/hero@2x.webp')
         }
     }
 
     .no-webp & { 
         background-image: url('../assets/jpg/hero@1x.jpg'); 
-        @include var.mx-query($device: 'tablet', $size: 'medium') {
+        @include var.mx-query($device: 'tablet', $size: 'md') {
             background-image: url('../assets/jpg/hero@2x.jpg')
         }
     }
@@ -52,7 +52,7 @@
     @at-root {
         .footer-container > .container {
             text-align: center;
-            @include var.mx-query($device: 'tablet', $size: 'small') {
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
                 text-align: unset;
             }
         }
@@ -83,7 +83,7 @@
             font-size: 2rem;
             text-transform: uppercase;
             letter-spacing: .2rem;
-            @include var.mx-query($device: 'tablet', $size: 'small') {
+            @include var.mx-query($device: 'tablet', $size: 'sm') {
                 text-align: center;
             }
         }

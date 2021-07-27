@@ -244,16 +244,16 @@
 $screen-sizes: 
 (
     'smartphone': (
-        'small': 480px,
-        'medium': 552px
+        'sm': 480px,
+        'md': 552px
     ),
     'tablet': (
-        'small': 768px,
-        'medium': 912px,
-        'big': 1080px
+        'sm': 768px,
+        'md': 912px,
+        'lg': 1080px
     ),
     'desktop': (
-        'small': 1212px
+        'sm': 1212px
     )
 );
 
