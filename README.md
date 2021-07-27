@@ -48,6 +48,8 @@ As the last thing, I have to mention that I got an 89 score in the accessibility
 
 That'd be everything for this project :D.
 
+Update: Something that I forgot to mention was that I had noticed that using the fonts from Google by calling it with a link element made the site a little bit slower (was something that always was present in the lighthouse report), thus I decided to download the fonts I was gonna use to get better performance when charging the site (and it worked perfectly :D).
+
 ### Lighthouse
 ![](readme/lighthouse.png)
 
