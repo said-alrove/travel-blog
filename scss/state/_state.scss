@@ -61,6 +61,19 @@ $light: -10%;
     }
 }
 
+// *** BLOGPOST *** // 
+
+//************************
+//* POST-SECTION
+//************************
+.post__section {
+    @at-root {
+        &:target .section__heading {
+            color: map.get(var.$clr, 'secundary');
+        }
+    }
+}
+
 //************************
 //* UTILITIES
 //************************

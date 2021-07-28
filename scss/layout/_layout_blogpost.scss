@@ -1,0 +1,113 @@
+// *** MEMBERS *** // 
+@use '../members' as var;
+@use 'sass:map';
+
+//************************
+//* HEADER-CONTAINER
+//************************
+.header-container {
+    @at-root {
+        & > .bar-wrapper {
+            position: initial;
+        }
+    }
+}
+
+//************************
+//* BLOGPOST-CONTAINER
+//************************
+.blogpost-container {
+    @include var.mx-query($device: 'tablet', $size: 'md') {
+        @include var.mx-grid($cols: 1fr 3fr);
+        grid-template-areas: 
+            'sidebar-container content-container';
+    }
+
+    @at-root { 
+        @include var.mx-query($device: 'tablet', $size: 'md') {
+            & > .sidebar-container {
+                grid-area: 'sidebar-container';
+            }
+    
+            & > .post-container {
+                grid-area: 'content-container';
+            }
+        }
+    }
+}
+
+//************************
+//* SIDEBAR-CONTAINER
+//************************
+.sidebar-container {
+    background-color: map.get(var.$clr, 'gray-200');
+
+    @at-root {
+        $box: 3rem;
+        .nav__heading {
+            padding-block-start: $box * 2;
+            font-size: 1.6rem;
+            text-align: center;
+            letter-spacing: .1rem;
+        }
+        & .nav__list { 
+            padding: $box; 
+            // text-align: center;
+        }
+    
+        & .nav__item { 
+            margin-block: $box; 
+            cursor: pointer;
+        }
+    
+        & .nav__item::before {
+            content: '▶';
+            color: map.get(var.$clr, 'primary');
+            margin-inline-end: 1rem;
+            transition: color 300ms ease-in-out;
+        }
+    
+        & .nav__item:hover::before { color: map.get(var.$clr, 'secundary'); }
+    
+        
+        & .nav__item > a {
+            all: unset;
+            font-family: 'Comme';
+        }
+        
+        & .nav__item:hover > a { text-decoration: underline; }
+    }
+}
+
+//************************
+//* POST-CONTAINER
+//************************
+.post-container {
+    $width: 90%;
+    .post__hero {
+        .post__heading { 
+            width: $width;
+            margin-inline: auto;
+            font-family: 'Comme';
+            text-align: center; 
+        }
+
+        img { width: $width; }
+    }
+
+    .post__content {
+        margin-inline: auto;
+        width: $width;
+        padding-block-end: 2rem;
+    }
+}
+
+//************************
+//* POST-SECTION
+//************************
+.post__section {
+    padding-block: 1rem;
+    @include var.mx-query($device: 'tablet', $size: 'md') {
+        img { max-width: 70%; }
+    }
+}
