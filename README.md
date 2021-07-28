@@ -55,27 +55,27 @@ That'd be everything for this project :D.
 
 Update: Something that I forgot to mention was that I had noticed that using the fonts from Google by calling it with a link element made the site a little bit slower (was something that always was present in the lighthouse report), thus I decided to download the fonts I was gonna use to get better performance when charging the site (and it worked perfectly :D). To import the fonts in the project I used the @font-face rule, [this video](https://www.youtube.com/watch?v=KzqQXDbDvus) gave me a hand (the @font-face rule works the same in SASS as in CSS so I didn't really deal with anything).
 
-### Lighthouse
+## Lighthouse
 
-#### Index
+### Index
 ![](readme/lighthouse(1).png)
 
-#### Blogpost
+### Blogpost
 ![](readme/lighthouse(2).png)
 
-### Facebook
+## Facebook
 
-#### Index
+### Index
 ![](readme/facebook(1).png)
 
-#### Blogpost
+### Blogpost
 ![](readme/facebook(2).png)
 
 
-### Twitter
+## Twitter
 
-#### Index
+### Index
 ![](readme/twitter(1).png)
 
-#### Blogpost
+### Blogpost
 ![](readme/twitter(2).png)
