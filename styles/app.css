@@ -367,6 +367,7 @@ figcaption {
 
 .header-wrapper > .bar-wrapper {
   position: initial;
+  margin-block-start: 1rem;
 }
 
 @media (min-width: 912px) {

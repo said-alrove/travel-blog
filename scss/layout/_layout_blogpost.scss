@@ -9,6 +9,7 @@
     @at-root {
         & > .bar-wrapper {
             position: initial;
+            margin-block-start: 1rem;
         }
     }
 }
