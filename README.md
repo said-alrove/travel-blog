@@ -77,7 +77,7 @@ That'd be everything for this project :D.
 
 Update: Something that I forgot to mention was that I had noticed that using the fonts from Google by calling it with a link element made the site a little bit slower (was something that always was present in the lighthouse report), thus I decided to download the fonts I was gonna use to get better performance when charging the site (and it worked perfectly :D). To import the fonts in the project I used the @font-face rule, [this video](https://www.youtube.com/watch?v=KzqQXDbDvus) gave me a hand (the @font-face rule works the same in SASS as in CSS so I didn't really deal with anything).
 
-Furthermore, something cool I added almost at the end, was the table of contents for the blog post page with an anchor to the different parts of the post that bring you until those sections in a smooth way thanks to the [scroll-behavior](https://css-tricks.com/almanac/properties/s/scroll-behavior/).
+Furthermore, something cool I added almost at the end, was the table of contents for the blog post page with an anchor to the different parts of the post that bring you until those sections in a smooth way thanks to the [scroll-behavior](https://css-tricks.com/almanac/properties/s/scroll-behavior/), plus that changes the color of the section heading once it's targeted thanks to the [:target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) pseudo-class.
 
 ### Lighthouse
 
