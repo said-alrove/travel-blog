@@ -2,7 +2,12 @@
 The second project from Juan Pablo's course of CSS Grid and Flexbox. 
 
 ## Project's preview
-![](readme/screenshot.png)
+
+### Index
+![](readme/screenshot(1).png)
+
+### Blogpost
+![](readme/screenshot(2).png)
 
 ## What I Learned
 I've used the SMACSS methodology at least a couple of times, and now I feel confident enough to jump onto another kinda CSS architecture in the next projects such as [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), or [7-1](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture).
@@ -51,10 +56,26 @@ That'd be everything for this project :D.
 Update: Something that I forgot to mention was that I had noticed that using the fonts from Google by calling it with a link element made the site a little bit slower (was something that always was present in the lighthouse report), thus I decided to download the fonts I was gonna use to get better performance when charging the site (and it worked perfectly :D). To import the fonts in the project I used the @font-face rule, [this video](https://www.youtube.com/watch?v=KzqQXDbDvus) gave me a hand (the @font-face rule works the same in SASS as in CSS so I didn't really deal with anything).
 
 ### Lighthouse
-![](readme/lighthouse.png)
+
+#### Index
+![](readme/lighthouse(1).png)
+
+#### Blogpost
+![](readme/lighthouse(2).png)
 
 ### Facebook
-![](readme/facebook.png)
+
+#### Index
+![](readme/facebook(1).png)
+
+#### Blogpost
+![](readme/facebook(2).png)
+
 
 ### Twitter
-![](readme/twitter.png)
+
+#### Index
+![](readme/twitter(1).png)
+
+#### Blogpost
+![](readme/twitter(2).png)
