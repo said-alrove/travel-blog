@@ -55,11 +55,7 @@ The second project from Juan Pablo's course of CSS Grid and Flexbox.
       <img src="01.webp" alt="">
    </picture>
 ```    
-<<<<<<< HEAD
-  When I should've been specifying the image formats separately, like this:
-=======
-   When I should've been specifying the image formats separately, like this:
->>>>>>> 1c89b8e8442339f0ede04791609380b79fd0b687
+When I should've been specifying the image formats separately, like this:
 ```
    <picture>
       <source type="image/webp" srcset="02.webp">
