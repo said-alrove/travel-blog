@@ -1,4 +1,4 @@
-# [travel-blog](https://said-alrove.github.io/travel-blog/)
+# [travel-blog](https://travel-blog-149548.netlify.app/)
 The second project from Juan Pablo's course of CSS Grid and Flexbox.
 
 > **Note:** this site was a combination of two of the projects from that course (they were both related, same colors, same logo etc, but the instructor didn't connect both pages to create a site, actually I think each project was on one different section of the course). I combined them mainly due to what I mentioned before, but also because it was going to be a great opportunity to create a "medium" project that could teach me about how to maintain a site correctly (name classes efficiently and reuse components), plus it was going to be the ideal project to practice the SMACSS architecture one more time before starting to use another methodology.
