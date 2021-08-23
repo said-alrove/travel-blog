@@ -7,7 +7,7 @@ The second project from Juan Pablo's course of [CSS Grid and Flexbox](https://ww
 
 > **Note:** I have to remark that this project will grow in the future because I'd like to add more pages (like the about, contact, and sections ones) to see how far I can get with this project, therefore this repository will be updated a couple of times more :D.
 
-> **Note:** Recently I've started to deploy my sites on [Netlify](https://app.netlify.com/), therefore I changed the domain's link to the new one, but I kept the screenshots that had the old domain (there's no reason for changing it, the result would be the same, with a different link only).
+> **Note:** Recently I've started to deploy my sites on [Netlify](https://app.netlify.com/), therefore I changed the domain's link to the new one (in the HTML and the README files), but I kept the screenshots that held the old domain (there's no reason for changing it, the result would've been the same with a different link only).
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
