@@ -1,11 +1,13 @@
 # [travel-blog](https://said-alrove.github.io/travel-blog/)
-The second project from Juan Pablo's course of CSS Grid and Flexbox.
+The second project from Juan Pablo's course of [CSS Grid and Flexbox](https://www.udemy.com/course/css-grid-y-flexbox-la-guia-definitiva-crea-10-proyectos/).
 
 > **Note:** this site was a combination of two of the projects from that course (they were both related, same colors, same logo etc, but the instructor didn't connect both pages to create a site, actually I think each project was on one different section of the course). I combined them mainly due to what I mentioned before, but also because it was going to be a great opportunity to create a "medium" project that could teach me about how to maintain a site correctly (name classes efficiently and reuse components), plus it was going to be the ideal project to practice the SMACSS architecture one more time before starting to use another methodology.
 
 > **Note:** the design of the blog post page was inspired by the [Holy Grail](https://en.wikipedia.org/wiki/Holy_grail_(web_design)) layout (I used the sidebar to create a table of contents very nice :D!).
 
 > **Note:** I have to remark that this project will grow in the future because I'd like to add more pages (like the about, contact, and sections ones) to see how far I can get with this project, therefore this repository will be updated a couple of times more :D.
+
+> **Dislclaimer:** Recently I've started to deploy my sites on [Netlify](https://app.netlify.com/), therefore I changed the domain's link to the new one, but I kept the screenshots that have the old domain (there's no reason for changing it, the result would be the same, with a different link only)
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
